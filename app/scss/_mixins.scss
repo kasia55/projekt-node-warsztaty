@@ -1,0 +1,9 @@
+@mixin displayFlexColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin marginlr($wartosc) {
+    margin-left: $wartosc;
+    margin-right: $wartosc;
+}

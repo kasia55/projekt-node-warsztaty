@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  color: white;
+  font-family: "Open Sans"; }
+
+div.div-top {
+  background-image: url(../img/background.png);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative; }
+
+div.top-telefon {
+  display: flex; }
+
+div.top-telefon > p {
+  margin: 0;
+  margin-left: 10px; }
+
+.fa-flip-horizontal {
+  margin-top: 8px;
+  font-size: 1.5em; }
+
+div.top-finanse {
+  font-size: 2em; }
+
+div.logo-telefon {
+  display: flex;
+  justify-content: space-around;
+  height: 11vh;
+  align-items: center; }
+
+footer {
+  background-color: #292929;
+  height: 30vh;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; }
+
+.fa-landmark, span {
+  color: #ecd407; }
+
+.telefon-footer, .email-footer {
+  background-color: #ecd407;
+  width: 50px;
+  height: 50px;
+  font-size: 2em;
+  padding: 5px;
+  padding-top: 10px;
+  text-align: center; }
+
+form {
+  background-color: #001d8a;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 45vh;
+  padding: 10px; }
+
+form > p {
+  margin: 0;
+  font-weight: bold; }
+
+form > input {
+  height: 30px; }
+
+textarea {
+  height: 50px; }
+
+textarea::placeholder, input::placeholder {
+  font-family: "Open Sans"; }
+
+form > input[type="submit"] {
+  width: 30%;
+  height: 50px;
+  background-color: #ecd407;
+  border: 1px solid #ecd407;
+  color: black;
+  font-weight: bold;
+  font-size: 18px; }
+
+div.formularz {
+  width: 25%;
+  height: 50vh;
+  position: absolute;
+  right: 20%;
+  top: 20%; }
+
+div.kontakt {
+  display: flex;
+  justify-content: space-around; }
+
+div.kontakt > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+div.kontakt + p {
+  text-align: center; }
